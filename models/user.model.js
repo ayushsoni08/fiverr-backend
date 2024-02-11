@@ -21,7 +21,7 @@ const UserSchema = new Schema({
         required: false,
     },
     country: {
-        trpe: String,
+        type: String,
         required: true,
     }, 
     phone: {
